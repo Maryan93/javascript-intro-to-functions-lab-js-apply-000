@@ -96,7 +96,7 @@ But how do we make `string` all caps? JavaScript has a method for that! It's cal
 So let's try it with our `shout()` function:
 
 ``` javascript
-function shout(string) {
+function shout .toUpperCase(string) {
   return string.toUpperCase()
 }
 ```
